@@ -1,0 +1,51 @@
+1)Pep8 in python:-
+
+PEP8(Python Enhancement Proposal 8) is a style guide for Python code, providing recommendations on how to format code for readability. It covers aspects like indentation, line length, imports, and naming conventions. Following PEP8 helps maintain consistency and makes code more understandable for other developers.
+
+2)Python operators :-
+
+Python operators are symbols that perform operations on variables and values. They include 
+  -arithmetic operators (+, -, *, /)    
+  -comparison operators (==, !=, <, >, <=, >=)
+  -logical operators (and, or, not)    
+  -assignment operators (=, +=, -=, *=, /=)
+and more. 
+They are used to manipulate data, make comparisons, and control the flow of a program.
+
+3)walrus operator in python:-
+
+The walrus operator, :=, introduced in Python 3.8, allows you to assign a value to a variable as part of an expression. It's useful for simplifying code and improving readability by avoiding redundant assignments. For example, instead of writing:
+
+Ex:-
+x = some_function()
+if x > 5:
+    print(x)
+
+You can use the walrus operator:
+Ex:-
+if (x := some_function()) > 5:
+    print(x)
+
+Here, the value of `some_function()` is assigned to `x`, and then `x` is used in the conditional statement.
+
+4)for loop in Python and it's ues:-
+
+A "for" loop is used to iterate over a sequence (such as a list, tuple, or string) or a range of numbers, executing a block of code for each iteration. It's commonly used when you know the number of iterations beforehand or when you want to perform a repetitive task with a clear start and end point.
+
+Syntax:-
+      for i in range(5):
+           print(i)
+
+5)range in python:-
+
+In Python, the `range()` function generates a sequence of numbers. It takes up to three arguments: start, stop, and step. The function creates a range from the start value up to, but not including, the stop value, with increments specified by the step value. Here's an example:
+
+Ex:-
+for i in range(1, 10, 2):
+    print(i)
+
+This would output: `1 3 5 7 9`, as it starts at 1, stops before 10, and increments by 2 each time.
+
+
+
+
